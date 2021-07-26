@@ -1,0 +1,62 @@
+/* 固定ページ h1*/
+@media (max-width: 576px) {
+.singlePage h1 {
+   font-size: 1.5rem;
+ }
+}
+
+/* 固定ページ h2 */
+@media (max-width: 576px) {
+.singlePage h2 {
+   font-size: 1.2rem;
+ }
+}
+
+
+/* index.html */
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('/image/risyouji_keidai.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+.gosyuin{
+    text-align: center;
+    
+}
+
+input::placeholder{
+  color:red;
+}
+
+.zyuusyoku{
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 0px ; 
+}
+
+.yuen{
+    text-align: left;
+    color: #6c757d;
+}
+.gohonnzon{
+    text-align: left;
+    color: #6c757d;
+}
+.kannon{
+text-align: left;
+    color: #6c757d;
+}
+/* index.html */
+
+/* kuyou.html */
+.image {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
